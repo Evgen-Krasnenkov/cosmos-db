@@ -1,0 +1,12 @@
+spring:
+  data:
+    cosmos:
+      uri: https://test.documents.azure.com:443/
+      key: ${ACCOUNT_KEY:} #base64 string
+      secondaryKey: ${SECONDARY_ACCOUNT_KEY:}
+      database:
+      queryMetricsEnabled: true
+      responseDiagnosticsEnabled: true
+
+application:
+  name: Cosmos
